@@ -38,6 +38,8 @@ public class Cat {
 		y = catY + EYE_Y;
 		g2.fillOval(x+30, y+20, 2, EYE_HEIGHT);
 		g2.fillOval(x+40, y+20, 2, EYE_HEIGHT);
+		g2.fillRect(HEAD_DIMENSION / 2 -20, HEAD_DIMENSION, 20, 2);
+		g2.fillRect(HEAD_DIMENSION / 2 + 80, HEAD_DIMENSION, 20, 2);
 		x += EYE_SEPARATION;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
 		// Draw the mouth
