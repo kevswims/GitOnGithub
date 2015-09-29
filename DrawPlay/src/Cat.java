@@ -34,6 +34,10 @@ public class Cat {
 		x = catX + EYE_X; 
 		y = catY + EYE_Y;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
+		x = catX + EYE_X; 
+		y = catY + EYE_Y;
+		g2.fillOval(x+30, y+20, 2, EYE_HEIGHT);
+		g2.fillOval(x+40, y+20, 2, EYE_HEIGHT);
 		x += EYE_SEPARATION;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
 		// Draw the mouth
